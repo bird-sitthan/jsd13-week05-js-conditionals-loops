@@ -9,10 +9,31 @@
 
 function dayType(dayNumber) {
   // TODO: replace this with your implementation
+  switch (dayNumber){
+    case "0";
+      console.log(weekend);
+      break;
+    case "6";
+      console.log(weekend);
+      break;
+    case "1";
+      console.log(weekday);
+      break;
+    case "5";
+      console.log(weekday);
+      break;
+    case "7";
+      console.log(invalid");
+      break;
+    case "-1";
+      console.log(invalid");
+      break;
+  }
 }
 
 // --- Tests (do not edit) ---
 import { strictEqual } from "node:assert";
+import console from "node:console";
 
 strictEqual(dayType(0), "weekend");
 strictEqual(dayType(6), "weekend");
