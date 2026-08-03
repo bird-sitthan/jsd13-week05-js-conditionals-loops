@@ -10,24 +10,18 @@
 function dayType(dayNumber) {
   // TODO: replace this with your implementation
   switch (dayNumber){
-    case "0";
-      console.log(weekend);
-      break;
-    case "6";
-      console.log(weekend);
-      break;
-    case "1";
-      console.log(weekday);
-      break;
-    case "5";
-      console.log(weekday);
-      break;
-    case "7";
-      console.log(invalid");
-      break;
-    case "-1";
-      console.log(invalid");
-      break;
+    case 0:
+    case 6:
+      return "weekend";
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+      return "weekday";
+    default: 
+    return "invalid";
+
   }
 }
 
